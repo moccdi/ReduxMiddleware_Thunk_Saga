@@ -14,15 +14,15 @@ class App extends Component {
 
     render(){
 
-        function* genetateNumbers() {
-            yield 1;
-            yield 2;
-            yield 3;
-        }
-        const generator = genetateNumbers();
-        for(let value of generator){
-            console.log(value)
-        }
+        // function* genetateNumbers() {
+        //     yield 1;
+        //     yield 2;
+        //     yield 3;
+        // }
+        // const generator = genetateNumbers();
+        // for(let value of generator){
+        //     console.log(value)
+        // }
 
         // console.log(generator.next())
         // console.log(generator.next())

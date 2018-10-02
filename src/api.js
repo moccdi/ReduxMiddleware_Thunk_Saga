@@ -9,6 +9,12 @@ export function getUserData(userName) {
 }
 
 
+export function getReposData(userName) {
+    return axios.get(`${API_URL}/users/${userName}/repos`)
+        .then(res => res.data);
+
+}
+
 
 // export function getUserData(userName) {
 //     return fetch(`${API_URL}/users/${userName}`)
